@@ -68,5 +68,46 @@
     overflow: hidden;
     text-align: center;
   }
+  .breed-form input,
+  .breed-form select,
+  .name-form input,
+  .name-form select {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    min-height: 5vh;
+    max-height: 7vh;
+    min-width: 45vw;
+    max-width: 60vw;
+  }
+  .breed-form button,
+  .name-form button {
+    width: 15vw;
+    height: 5vh;
+    margin: 2vh;
+  }
+  .breed-form ::-webkit-input-placeholder,
+  .name-form ::-webkit-input-placeholder {
+    text-align: center;
+  }
+  .breed-form :-ms-input-placeholder,
+  .name-form :-ms-input-placeholder {
+    text-align: center;
+  }
+  .breed-form ::-ms-input-placeholder,
+  .name-form ::-ms-input-placeholder {
+    text-align: center;
+  }
+  .breed-form ::placeholder,
+  .name-form ::placeholder {
+    text-align: center;
+  }
+  .breed-form select {
+    margin-top: 2vh;
+  }
 }
 /*# sourceMappingURL=styles.css.map */

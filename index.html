@@ -22,20 +22,26 @@
 
             <button type="button" class="collapsible">Search by Breed</button>
             <div class="content">
-                <form>
-                    <input placeholder="Breed" type="text" id="fname" name="fname">
+                <form class='breed-form'>
+                    <!-- <input placeholder="Breed" type="text" id="fname" name="fname"> -->
+                    <label>Select your pups Breed</label>
+                    <select name="" id="breeds">
+                        <option value="dog">dog</option>
+                        <option value="dog2">dog2</option>
+                        <option value="dog3">dog3</option>
+                    </select>
 
-                    <input type="submit" value="Go!">
+                    <button type="submit">Go!</button>
                 </form>
             </div>
 
             <!-- <button>Search by Name</button> -->
             <button type="button" class="collapsible">Search By Name</button>
             <div class="content">
-                <form>
-                    <input placeholder="Name" type="text" id="fname" name="fname">
+                <form class='name-form'>
+                    <input placeholder="Enter your pups name here" type="text" id="fname" name="fname">
 
-                    <input type="submit" value="Go!">
+                    <button type="submit">Go!</button>
                 </form>
             </div>
         </div>

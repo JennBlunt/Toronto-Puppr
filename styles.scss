@@ -84,4 +84,37 @@
         overflow: hidden;
         text-align: center;
     }
+
+    .breed-form,
+    .name-form {
+
+        input,
+        select {
+            display: flex;
+            flex-direction: column;
+            min-height: 5vh;
+            max-height: 7vh;
+            min-width: 45vw;
+            max-width: 60vw;
+
+        }
+
+        button {
+            width: 15vw;
+            height: 5vh;
+            margin: 2vh;
+        }
+
+        ::placeholder {
+            text-align: center;
+        }
+    }
+
+    .breed-form {
+        select {
+            margin-top: 2vh;
+        }
+    }
+
+
 }
