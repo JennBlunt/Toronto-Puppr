@@ -652,16 +652,8 @@
     "quan_licenced": "1"
   },
   {
-    "breed": "Labrador Retrei",
-    "quan_licenced": "1"
-  },
-  {
     "breed": "Labrador Retriever",
-    "quan_licenced": "4,353"
-  },
-  {
-    "breed": "Labrador Retriv",
-    "quan_licenced": "1"
+    "quan_licenced": "4,355"
   },
   {
     "breed": "Lagotto Romagno",
@@ -1220,27 +1212,7 @@
     "quan_licenced": "1,237"
   },
   {
-    "dogs": "",
-    "breed": "Total",
-    "FIELD3": "",
+    "breed": "Total of all breeds",
     "quan_licenced": "42,937"
-  },
-  {
-    "dogs": "",
-    "breed": "",
-    "FIELD3": "",
-    "quan_licenced": ""
-  },
-  {
-    "dogs": "",
-    "breed": "",
-    "FIELD3": "",
-    "quan_licenced": ""
-  },
-  {
-    "dogs": "",
-    "breed": "",
-    "FIELD3": "",
-    "quan_licenced": ""
   }
 ]

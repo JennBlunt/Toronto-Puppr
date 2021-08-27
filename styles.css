@@ -109,5 +109,8 @@
   .breed-form select {
     margin-top: 2vh;
   }
+  .breed-form option {
+    text-align: center;
+  }
 }
 /*# sourceMappingURL=styles.css.map */

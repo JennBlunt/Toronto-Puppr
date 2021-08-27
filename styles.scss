@@ -17,8 +17,6 @@
     body {
         margin: 0;
         font-family: Arial, Helvetica, sans-serif;
-
-
     }
 
     #app {
@@ -96,7 +94,6 @@
             max-height: 7vh;
             min-width: 45vw;
             max-width: 60vw;
-
         }
 
         button {
@@ -113,6 +110,10 @@
     .breed-form {
         select {
             margin-top: 2vh;
+        }
+
+        option {
+            text-align: center;
         }
     }
 
