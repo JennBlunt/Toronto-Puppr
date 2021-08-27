@@ -1,20 +1,17 @@
-// Breed form:
-
-// 1. loop through breed names to generate list from which to select 
-// 2. return number licenced for selected breed on SVGNumberList
-
-
-// for each item in breen list, add a new option tag, 
-//need to include value and name. Use birds as refrence
 
 // Name form:
 
 // 1. grab name entered from imput
+// let breedChosen = document.getElementById('breed-option').value;
 // 2. use find() method to search for the name
 // 3. retunr numer licenced with name, or a not found message
 
 
 const dogs = [
+    {
+        "breed": "",
+        "quan_licenced": "42 937"
+    },
     {
         "breed": "Affenpinscher",
         "quan_licenced": "11"
@@ -44,23 +41,37 @@ const dogs = [
         "quan_licenced": "69"
     },
     {
-        "breed": "American Bull D",
-        "quan_licenced": "1"
-    },
-    {
         "breed": "American Bulldog",
-        "quan_licenced": "463"
+        "quan_licenced": "464"
     }
 ]
 
 const dogBreeds = document.getElementById('breeds');
 
-for (let i = 0; i < dogs.length; i++) {
 
+for (let i = 0; i < dogs.length; i++) {
     const dogOption = document.createElement('option');
     dogOption.innerHTML = dogs[i].breed;
-    dogOption.setAttribute('value', dogs[i].breed)
-    dogOption.classList.add('dogOption');
+    dogOption.setAttribute('value', dogs[i].quan_licenced)
+    dogOption.setAttribute('id', 'breedOption');
+    dogOption.classList.add('breed-option');
     dogBreeds.appendChild(dogOption);
-
 }
+
+function dispayNumber() {
+    let breedLicenced = document.getElementById('breeds').value;
+    // let breedName = document.getElementById('breeds').text;
+    console.log('There are ' + breedLicenced + ' dogs registered in Toronto');
+    let dogsLicenced = document.getElementById('breed-result');
+    dogsLicenced.innerHTML = 'There are ' + breedLicenced + ' dogs registered';
+}
+dispayNumber();
+
+
+
+
+
+
+
+
+
