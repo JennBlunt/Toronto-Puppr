@@ -109,7 +109,7 @@
   .breed-form select {
     margin-top: 2vh;
   }
-  .breed-form option {
+  option {
     text-align: center;
   }
 }
