@@ -8,3 +8,9 @@
 // 1. grab name entered from imput
 // 2. use find() method to search for the name
 // 3. retunr numer licenced with name, or a not found message
+
+const findName = document.getElementById('find-name');
+
+findName.addEventListener('keyup', (e) => {
+    console.log(e.target.value);
+});
