@@ -50,13 +50,16 @@ const dogBreeds = document.getElementById('breeds');
 
 
 for (let i = 0; i < dogs.length; i++) {
+
     const dogOption = document.createElement('option');
     dogOption.innerHTML = dogs[i].breed;
     dogOption.setAttribute('value', dogs[i].quan_licenced)
     dogOption.setAttribute('id', 'breedOption');
     dogOption.classList.add('breed-option');
     dogBreeds.appendChild(dogOption);
+
 }
+
 
 function dispayNumber() {
     let breedLicenced = document.getElementById('breeds').value;
