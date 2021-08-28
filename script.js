@@ -57,7 +57,6 @@ for (let i = 0; i < dogs.length; i++) {
     dogOption.setAttribute('id', 'breedOption');
     dogOption.classList.add('breed-option');
     dogBreeds.appendChild(dogOption);
-
 }
 
 
