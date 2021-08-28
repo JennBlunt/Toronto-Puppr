@@ -1,8 +1,25 @@
-// Breed form:
-
-// 1. loop through breed names to generate list from which to select 
-// 2. return number licenced for selected breed on SVGNumberList
-
+const dogNames = [
+    {
+        "name": "CHARLIE",
+        "quan_licenced": 561
+    },
+    {
+        "name": "LUNA",
+        "quan_licenced": 423
+    },
+    {
+        "name": "BELLA",
+        "quan_licenced": 420
+    },
+    {
+        "name": "MAX",
+        "quan_licenced": 352
+    },
+    {
+        "name": "COCO",
+        "quan_licenced": 311
+    }
+]
 // Name form:
 
 // 1. grab name entered from imput
@@ -12,5 +29,14 @@
 const findName = document.getElementById('find-name');
 
 findName.addEventListener('keyup', (e) => {
-    console.log(e.target.value);
+    const searchedName = e.target.value.toUpperCase();
+    console.log(searchedName);
+    if (searchedName === dogNames.name) {
+        let nameResult = document.createElement('p');
+        nameResult.innerHTML = dogNames[i].quan_licenced;
+        findName.appendChild(nameResult);
+    } else {
+        //display mesage that name isn't found
+        `<p>"We didn't find your pooche's name in the regestry"</p>`
+    }
 });
