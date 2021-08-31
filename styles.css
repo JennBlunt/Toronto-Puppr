@@ -1,8 +1,106 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#app {
+  background-image: url(./assets/images/pexels-anna-shvets-4588052-full-screen.jpg);
+  height: 100vh;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 13vh;
+  line-height: 0.5rem;
+}
+
+.header h1 {
+  color: #AB6630;
+  font-size: 3.5rem;
+}
+
+.header p {
+  font-size: 1.2rem;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-content: flex-end;
+  align-items: center;
+  padding-top: 12vh;
+  padding-bottom: 38vh;
+  margin-right: 20vw;
+}
+
+.collapsible {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  color: #AB6630;
+  cursor: pointer;
+  padding: 18px;
+  border: 1px solid #3E2F1C;
+  text-align: left;
+  outline: none;
+  font-size: 1.2rem;
+  height: 10vh;
+  width: 20vw;
+  margin: 3%;
+}
+
+.active,
+.collapsible:hover {
+  color: #E1A34C;
+}
+
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  text-align: center;
+}
+
+.breed-form input,
+.breed-form select,
+.name-form input,
+.name-form select {
+  display: flex;
+  flex-direction: column;
+  height: 5vh;
+  width: 18vw;
+}
+
+.breed-form button,
+.name-form button {
+  width: 10vw;
+  height: 5vh;
+  margin: 2vh;
+}
+
+.breed-form ::placeholder,
+.name-form ::placeholder {
+  text-align: center;
+}
+
+.breed-form select {
+  margin-top: 2vh;
+}
+
+option {
+  text-align: center;
+}
+
 @media screen and (min-width: 280px) and (max-width: 480px) {
-  body {
-    margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
-  }
   #app {
     background-image: url(./assets/images/pexels-anna-shvets-4588052.jpg);
     height: 100vh;
@@ -10,75 +108,25 @@
     background-repeat: no-repeat;
     background-size: cover;
   }
-  .header {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    padding-top: 13vh;
-    line-height: 0.5rem;
-  }
   .header h1 {
-    color: #AB6630;
+    font-size: 2.5rem;
   }
-  .buttons {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    -ms-flex-line-pack: center;
-        align-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    padding-top: 5vh;
-    padding-bottom: 38vh;
+  .header p {
+    font-size: 1rem;
   }
   .collapsible {
-    background-color: white;
-    color: #AB6630;
-    cursor: pointer;
-    padding: 18px;
-    border: 1px solid #3E2F1C;
-    text-align: left;
-    outline: none;
-    font-size: 15px;
-    height: 10vh;
     width: 60vw;
-    margin: 5%;
-    text-align: center;
+    margin: 3%;
   }
-  .active,
-  .collapsible:hover {
-    color: #E1A34C;
-  }
-  .content {
-    padding: 0 18px;
-    display: none;
-    overflow: hidden;
-    text-align: center;
+  .buttons {
+    justify-content: center;
   }
   .breed-form input,
   .breed-form select,
   .name-form input,
   .name-form select {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
     min-height: 5vh;
     max-height: 7vh;
     min-width: 45vw;
@@ -89,18 +137,6 @@
     width: 15vw;
     height: 5vh;
     margin: 2vh;
-  }
-  .breed-form ::-webkit-input-placeholder,
-  .name-form ::-webkit-input-placeholder {
-    text-align: center;
-  }
-  .breed-form :-ms-input-placeholder,
-  .name-form :-ms-input-placeholder {
-    text-align: center;
-  }
-  .breed-form ::-ms-input-placeholder,
-  .name-form ::-ms-input-placeholder {
-    text-align: center;
   }
   .breed-form ::placeholder,
   .name-form ::placeholder {
@@ -113,4 +149,3 @@
     text-align: center;
   }
 }
-/*# sourceMappingURL=styles.css.map */
