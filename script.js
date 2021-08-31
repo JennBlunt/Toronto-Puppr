@@ -31,12 +31,18 @@ const findName = document.getElementById('find-name');
 findName.addEventListener('keyup', (e) => {
     const searchedName = e.target.value.toUpperCase();
     console.log(searchedName);
-    if (searchedName === dogNames.name) {
-        let nameResult = document.createElement('p');
-        nameResult.innerHTML = dogNames[i].quan_licenced;
-        findName.appendChild(nameResult);
-    } else {
-        //display mesage that name isn't found
-        `<p>"We didn't find your pooche's name in the regestry"</p>`
+    for (let i = 0; i < dogNames.length; i++) {
+        if (searchedName === dogNames[i].name) {
+            console.log('yup');
+            let nameResult = document.createElement('p');
+            nameResult.innerHTML = dogNames[i].quan_licenced;
+            findName.appendChild(nameResult);
+        } else {
+            console.log('nope');
+            // display mesage that name isn't found
+            let nameResult = document.createElement('p');
+            nameResult.innerHTML = "We didn't find that name on the regestry";
+            findName.appendChild(nameResult);
+        }
     }
 });
