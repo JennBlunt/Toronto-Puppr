@@ -28,21 +28,14 @@ const dogNames = [
 
 const findName = document.getElementById('find-name');
 
-findName.addEventListener('keyup', (e) => {
+findName.addEventListener('keyup', function (e) {
     const searchedName = e.target.value.toUpperCase();
     console.log(searchedName);
-    for (let i = 0; i < dogNames.length; i++) {
-        if (searchedName === dogNames[i].name) {
-            console.log('yup');
-            let nameResult = document.createElement('p');
-            nameResult.innerHTML = dogNames[i].quan_licenced;
-            findName.appendChild(nameResult);
-        } else {
-            console.log('nope');
-            // display mesage that name isn't found
-            let nameResult = document.createElement('p');
-            nameResult.innerHTML = "We didn't find that name on the regestry";
-            findName.appendChild(nameResult);
-        }
-    }
+    const filteredNames = dogNames.filter(function (dog) {
+        return dog.name.includes(searchedName);
+    });
+    console.log(filteredNames);
 });
+
+
+
