@@ -120,6 +120,7 @@ option {
   }
   .buttons {
     justify-content: center;
+    margin-right: 18vw;
   }
   .breed-form input,
   .breed-form select,
