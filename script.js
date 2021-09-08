@@ -37711,7 +37711,7 @@ findName.addEventListener('keyup', function (e) {
     console.log(searchedName);
     filteredNames = dogNames.filter(function (dog) {
         return dog.name.includes(searchedName);
-    })
+    });
     console.log(filteredNames);
     const nameLicenced = document.getElementById('name-submit');
     let dogsQuant = document.createElement('p');
