@@ -37703,26 +37703,24 @@ const dogNames = [
 ]
 
 
-// const findName = document.getElementById('find-name');
+const findName = document.getElementById('find-name');
+let filteredNames = ''
 
-// findName.addEventListener('keyup', function (e) {
-//     const searchedName = e.target.value.toUpperCase();
-//     console.log(searchedName);
-//     const filteredNames = dogNames.filter(function (dog) {
-//         return dog.name.includes(searchedName);
-//     });
-//     console.log(filteredNames);
-// });
+findName.addEventListener('keyup', function (e) {
+    const searchedName = e.target.value.toUpperCase();
+    console.log(searchedName);
+    filteredNames = dogNames.filter(function (dog) {
+        return dog.name.includes(searchedName);
+    });
+    console.log(filteredNames);
+    const nameLicenced = document.getElementById('name-submit');
+    let dogsQuant = document.createElement('p');
+
+    dogsQuant.innerHTML = "There are " + filteredNames[0].quan_licenced + " dogs named " + filteredNames[0].name + " in Toronto";
+    nameLicenced.appendChild(dogsQuant);
+    console.log("There are " + filteredNames[0].quan_licenced + " dogs named " + filteredNames[0].name + " in Toronto");
+
+});
 
 
 
-// filteredNames holds the objects found with the filter function 
-// as the enter a name. 
-// grab filteredNames and display the number of dogs licenced with 
-// that name. 
-// what is filteredNames has more than one object?
-// display message after submit?
-
-// if filteredNames matches dognames.name
-// display message
-// else display err message
