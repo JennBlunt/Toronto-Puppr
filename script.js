@@ -37703,16 +37703,16 @@ const dogNames = [
 ]
 
 
-const findName = document.getElementById('find-name');
+// const findName = document.getElementById('find-name');
 
-findName.addEventListener('keyup', function (e) {
-    const searchedName = e.target.value.toUpperCase();
-    console.log(searchedName);
-    const filteredNames = dogNames.filter(function (dog) {
-        return dog.name.includes(searchedName);
-    });
-    console.log(filteredNames);
-});
+// findName.addEventListener('keyup', function (e) {
+//     const searchedName = e.target.value.toUpperCase();
+//     console.log(searchedName);
+//     const filteredNames = dogNames.filter(function (dog) {
+//         return dog.name.includes(searchedName);
+//     });
+//     console.log(filteredNames);
+// });
 
 
 
