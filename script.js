@@ -37699,8 +37699,33 @@ const dogNames = [
         "name": "ZYZAH",
         "quan_licenced": 1
     }
-
 ]
+
+
+const dogBreeds = document.getElementById('breeds');
+
+
+for (let i = 0; i < dogs.length; i++) {
+
+    const dogOption = document.createElement('option');
+    dogOption.innerHTML = dogs[i].breed;
+    dogOption.setAttribute('value', dogs[i].quan_licenced)
+    dogOption.setAttribute('id', 'breedOption');
+    dogOption.classList.add('breed-option');
+    dogBreeds.appendChild(dogOption);
+}
+
+
+function dispayNumber() {
+    let breedLicenced = document.getElementById('breeds').value;
+    // let breedName = document.getElementById('breeds').text;
+    console.log('There are ' + breedLicenced + ' dogs registered in Toronto');
+    let dogsLicenced = document.getElementById('breed-result');
+    dogsLicenced.innerHTML = 'There are ' + breedLicenced + ' dogs registered';
+}
+dispayNumber();
+
+
 
 
 const findName = document.getElementById('find-name');
