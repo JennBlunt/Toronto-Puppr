@@ -37701,6 +37701,45 @@ const dogNames = [
     }
 ]
 
+const dogs = [
+    {
+        "breed": "",
+        "quan_licenced": "42 937"
+    },
+    {
+        "breed": "Affenpinscher",
+        "quan_licenced": "11"
+    },
+    {
+        "breed": "Airedale Terrier",
+        "quan_licenced": "73"
+    },
+    {
+        "breed": "Akbash",
+        "quan_licenced": "13"
+    },
+    {
+        "breed": "Akita",
+        "quan_licenced": "49"
+    },
+    {
+        "breed": "Alaskan Husky",
+        "quan_licenced": "76"
+    },
+    {
+        "breed": "Alaskan Klee Kai",
+        "quan_licenced": "7"
+    },
+    {
+        "breed": "Alaskan Malamute",
+        "quan_licenced": "69"
+    },
+    {
+        "breed": "American Bulldog",
+        "quan_licenced": "464"
+    }
+]
+
 
 const dogBreeds = document.getElementById('breeds');
 
@@ -37713,6 +37752,7 @@ for (let i = 0; i < dogs.length; i++) {
     dogOption.setAttribute('id', 'breedOption');
     dogOption.classList.add('breed-option');
     dogBreeds.appendChild(dogOption);
+
 }
 
 
@@ -37727,14 +37767,13 @@ dispayNumber();
 
 
 
-
 const findName = document.getElementById('find-name');
 let filteredNames = ''
 
 findName.addEventListener('keyup', function (e) {
     const searchedName = e.target.value.toUpperCase();
     console.log(searchedName);
-    filteredNames = dogNames.filter(function (dog) {
+    filteredNames = dogName.filter(function (dog) {
         return dog.name.includes(searchedName);
     })
     console.log(filteredNames);
