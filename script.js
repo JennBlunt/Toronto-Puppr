@@ -37703,7 +37703,7 @@ const dogNames = [
 
 const dogs = [
     {
-        "breed": "",
+        "breed": "dog",
         "quan_licenced": "42 937"
     },
     {
@@ -37743,25 +37743,20 @@ const dogs = [
 
 const dogBreeds = document.getElementById('breeds');
 
-
 for (let i = 0; i < dogs.length; i++) {
 
     const dogOption = document.createElement('option');
     dogOption.innerHTML = dogs[i].breed;
-    dogOption.setAttribute('value', dogs[i].quan_licenced)
+    dogOption.setAttribute('value', dogs[i].quan_licenced + " " + dogs[i].breed)
     dogOption.setAttribute('id', 'breedOption');
     dogOption.classList.add('breed-option');
     dogBreeds.appendChild(dogOption);
-
 }
-
 
 function dispayNumber() {
     let breedLicenced = document.getElementById('breeds').value;
-    // let breedName = document.getElementById('breeds').text;
-    console.log('There are ' + breedLicenced + ' dogs registered in Toronto');
     let dogsLicenced = document.getElementById('breed-result');
-    dogsLicenced.innerHTML = 'There are ' + breedLicenced + ' dogs registered';
+    dogsLicenced.innerHTML = 'There are ' + breedLicenced + 's registered in Toronto (2021)';
 }
 dispayNumber();
 

@@ -12,9 +12,16 @@ body {
 }
 
 .header {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   padding-top: 13vh;
   line-height: 0.5rem;
 }
@@ -29,22 +36,42 @@ body {
 }
 
 .buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  flex-wrap: wrap;
-  align-content: flex-end;
-  align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-line-pack: end;
+      align-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   padding-top: 12vh;
   padding-bottom: 38vh;
   margin-right: 20vw;
 }
 
 .collapsible {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   background-color: white;
   color: #AB6630;
   cursor: pointer;
@@ -52,7 +79,7 @@ body {
   border: 1px solid #3E2F1C;
   text-align: left;
   outline: none;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   height: 10vh;
   width: 20vw;
   margin: 3%;
@@ -68,14 +95,20 @@ body {
   display: none;
   overflow: hidden;
   text-align: center;
+  width: 17vw;
 }
 
 .breed-form input,
 .breed-form select,
 .name-form input,
 .name-form select {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   height: 5vh;
   width: 18vw;
 }
@@ -87,6 +120,21 @@ body {
   margin: 2vh;
 }
 
+.breed-form ::-webkit-input-placeholder,
+.name-form ::-webkit-input-placeholder {
+  text-align: center;
+}
+
+.breed-form :-ms-input-placeholder,
+.name-form :-ms-input-placeholder {
+  text-align: center;
+}
+
+.breed-form ::-ms-input-placeholder,
+.name-form ::-ms-input-placeholder {
+  text-align: center;
+}
+
 .breed-form ::placeholder,
 .name-form ::placeholder {
   text-align: center;
@@ -96,8 +144,21 @@ body {
   margin-top: 2vh;
 }
 
-option {
-  text-align: center;
+select {
+  text-indent: 5px;
+}
+
+#breeds {
+  color: #AB6630;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: initial;
+  -webkit-box-direction: initial;
+      -ms-flex-direction: initial;
+          flex-direction: initial;
+  font-size: 1.3rem;
+  text-align-last: center;
 }
 
 @media screen and (min-width: 280px) and (max-width: 480px) {
@@ -117,17 +178,28 @@ option {
   .collapsible {
     width: 60vw;
     margin: 3%;
+    font-size: 1.2rem;
   }
   .buttons {
-    justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     margin-right: 18vw;
+  }
+  .content {
+    width: 45vw;
   }
   .breed-form input,
   .breed-form select,
   .name-form input,
   .name-form select {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     min-height: 5vh;
     max-height: 7vh;
     min-width: 45vw;
@@ -139,12 +211,31 @@ option {
     height: 5vh;
     margin: 2vh;
   }
+  .breed-form ::-webkit-input-placeholder,
+  .name-form ::-webkit-input-placeholder {
+    text-align: center;
+  }
+  .breed-form :-ms-input-placeholder,
+  .name-form :-ms-input-placeholder {
+    text-align: center;
+  }
+  .breed-form ::-ms-input-placeholder,
+  .name-form ::-ms-input-placeholder {
+    text-align: center;
+  }
   .breed-form ::placeholder,
   .name-form ::placeholder {
     text-align: center;
   }
   .breed-form select {
     margin-top: 2vh;
+  }
+  #breeds {
+    font-size: 1.1rem;
+  }
+  #breed-result {
+    color: #F1ECEB;
+    text-shadow: 1px 1px 3px #000000;
   }
   option {
     text-align: center;
@@ -154,3 +245,4 @@ option {
     width: 50vw;
   }
 }
+/*# sourceMappingURL=styles.css.map */

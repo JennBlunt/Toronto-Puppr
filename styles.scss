@@ -52,7 +52,7 @@ body {
     border: 1px solid #3E2F1C;
     text-align: left;
     outline: none;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     height: 10vh;
     width: 20vw;
     margin: 3%;
@@ -69,6 +69,7 @@ body {
     display: none;
     overflow: hidden;
     text-align: center;
+    width: 17vw;
 }
 
 
@@ -81,6 +82,7 @@ body {
         flex-direction: column;
         height: 5vh;
         width: 18vw;
+
 
     }
 
@@ -103,9 +105,20 @@ body {
 
 }
 
-option {
-    text-align: center;
+select {
+    text-indent: 5px;
 }
+
+
+
+#breeds {
+    color: #AB6630;
+    display: flex;
+    flex-direction: initial;
+    font-size: 1.3rem;
+    text-align-last: center;
+}
+
 
 @media screen and (min-width: 280px) and (max-width: 480px) {
 
@@ -130,13 +143,17 @@ option {
     .collapsible {
         width: 60vw;
         margin: 3%;
-
+        font-size: 1.2rem;
     }
 
 
     .buttons {
         justify-content: center;
         margin-right: 18vw;
+    }
+
+    .content {
+        width: 45vw;
     }
 
     .breed-form,
@@ -169,6 +186,15 @@ option {
         }
 
 
+    }
+
+    #breeds {
+        font-size: 1.1rem;
+    }
+
+    #breed-result {
+        color: #F1ECEB;
+        text-shadow: 1px 1px 3px #000000;
     }
 
     option {
