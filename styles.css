@@ -111,6 +111,8 @@ body {
           flex-direction: column;
   height: 5vh;
   width: 18vw;
+  text-align-last: center;
+  font-size: 1.3rem;
 }
 
 .breed-form button,
@@ -123,21 +125,25 @@ body {
 .breed-form ::-webkit-input-placeholder,
 .name-form ::-webkit-input-placeholder {
   text-align: center;
+  font-size: 1rem;
 }
 
 .breed-form :-ms-input-placeholder,
 .name-form :-ms-input-placeholder {
   text-align: center;
+  font-size: 1rem;
 }
 
 .breed-form ::-ms-input-placeholder,
 .name-form ::-ms-input-placeholder {
   text-align: center;
+  font-size: 1rem;
 }
 
 .breed-form ::placeholder,
 .name-form ::placeholder {
   text-align: center;
+  font-size: 1rem;
 }
 
 .breed-form select {
@@ -204,28 +210,23 @@ select {
     max-height: 7vh;
     min-width: 45vw;
     max-width: 60vw;
-  }
-  .breed-form button,
-  .name-form button {
-    width: 15vw;
-    height: 5vh;
-    margin: 2vh;
+    font-size: 1.1rem;
   }
   .breed-form ::-webkit-input-placeholder,
   .name-form ::-webkit-input-placeholder {
-    text-align: center;
+    font-size: .9rem;
   }
   .breed-form :-ms-input-placeholder,
   .name-form :-ms-input-placeholder {
-    text-align: center;
+    font-size: .9rem;
   }
   .breed-form ::-ms-input-placeholder,
   .name-form ::-ms-input-placeholder {
-    text-align: center;
+    font-size: .9rem;
   }
   .breed-form ::placeholder,
   .name-form ::placeholder {
-    text-align: center;
+    font-size: .9rem;
   }
   .breed-form select {
     margin-top: 2vh;

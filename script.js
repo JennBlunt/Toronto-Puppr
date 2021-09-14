@@ -37768,7 +37768,7 @@ let filteredNames = ''
 findName.addEventListener('keyup', function (e) {
     const searchedName = e.target.value.toUpperCase();
     console.log(searchedName);
-    filteredNames = dogName.filter(function (dog) {
+    filteredNames = dogNames.filter(function (dog) {
         return dog.name.includes(searchedName);
     })
     console.log(filteredNames);

@@ -82,7 +82,8 @@ body {
         flex-direction: column;
         height: 5vh;
         width: 18vw;
-
+        text-align-last: center;
+        font-size: 1.3rem;
 
     }
 
@@ -94,6 +95,7 @@ body {
 
     ::placeholder {
         text-align: center;
+        font-size: 1rem;
     }
 }
 
@@ -167,16 +169,13 @@ select {
             max-height: 7vh;
             min-width: 45vw;
             max-width: 60vw;
-        }
+            font-size: 1.1rem;
 
-        button {
-            width: 15vw;
-            height: 5vh;
-            margin: 2vh;
         }
 
         ::placeholder {
-            text-align: center;
+
+            font-size: .9rem
         }
     }
 
