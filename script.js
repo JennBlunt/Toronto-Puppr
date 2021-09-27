@@ -37781,5 +37781,5 @@ findName.addEventListener('keyup', function (e) {
 
 });
 
-
-
+// build message that will be hidden until submit button used.
+//pull for HP video
