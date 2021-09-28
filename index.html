@@ -36,10 +36,11 @@
             <!-- <button>Search by Name</button> -->
             <button type="button" class="collapsible">Search By Name</button>
             <div class="content">
-                <form class='name-form'>
+                <form id='form' class='name-form'>
                     <input placeholder="Enter your pups name here" type="text" id="find-name" name="find-name">
 
-                    <button id='name-submit' type="submit">Go!</button>
+                    <button id='name-submit' onclick='dispayNumber()'>Go!</button>
+                    <p id='name-result-msg'></p>
                 </form>
             </div>
         </div>

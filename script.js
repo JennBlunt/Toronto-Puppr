@@ -37753,6 +37753,7 @@ for (let i = 0; i < dogs.length; i++) {
     dogBreeds.appendChild(dogOption);
 }
 
+
 function dispayNumber() {
     let breedLicenced = document.getElementById('breeds').value;
     let dogsLicenced = document.getElementById('breed-result');
@@ -37763,23 +37764,26 @@ dispayNumber();
 
 
 const findName = document.getElementById('find-name');
-let filteredNames = ''
+const form = document.getElementById('form');
+let filteredNames = '';
+let nameMsg = [];
 
 findName.addEventListener('keyup', function (e) {
     const searchedName = e.target.value.toUpperCase();
     console.log(searchedName);
-    filteredNames = dogNames.filter(function (dog) {
-        return dog.name.includes(searchedName);
-    })
+    filteredNames = dogNames.filter((dog) =>
+        dog.name === (searchedName));
     console.log(filteredNames);
-    const nameLicenced = document.getElementById('name-submit');
-    let dogsQuant = document.createElement('p');
-
-    dogsQuant.innerHTML = "There are " + filteredNames[0].quan_licenced + " dogs named " + filteredNames[0].name + " in Toronto";
-    nameLicenced.appendChild(dogsQuant);
-    console.log("There are " + filteredNames[0].quan_licenced + " dogs named " + filteredNames[0].name + " in Toronto");
-
 });
 
-// build message that will be hidden until submit button used.
-//pull for HP video
+form.addEventListener('submit', (e) => {
+    if (filteredNames.length > 1) {
+        console.log('Nope');
+    }
+    else {
+        e.preventDefault();
+        console.log("yay");
+    }
+});
+
+
