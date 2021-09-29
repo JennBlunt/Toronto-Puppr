@@ -37753,7 +37753,6 @@ for (let i = 0; i < dogs.length; i++) {
     dogBreeds.appendChild(dogOption);
 }
 
-
 function dispayNumber() {
     let breedLicenced = document.getElementById('breeds').value;
     let dogsLicenced = document.getElementById('breed-result');
@@ -37774,16 +37773,21 @@ findName.addEventListener('keyup', function (e) {
     filteredNames = dogNames.filter((dog) =>
         dog.name === (searchedName));
     console.log(filteredNames);
+    form.addEventListener('submit', (e) => {
+        e.preventDefault();
+        if (filteredNames.length === 0) {
+            console.log('There are no dogs registered with ' + searchedName + ' registered in Toronto');
+        }
+        else {
+
+            console.log('There are ' + filteredNames[0].quan_licenced + ' dogs registered with ' + searchedName + ' registered in Toronto');
+        }
+    });
 });
 
-form.addEventListener('submit', (e) => {
-    if (filteredNames.length > 1) {
-        console.log('Nope');
-    }
-    else {
-        e.preventDefault();
-        console.log("yay");
-    }
-});
+
+
+
+
 
 
