@@ -37764,23 +37764,23 @@ dispayNumber();
 
 const findName = document.getElementById('find-name');
 const form = document.getElementById('form');
+const msgDisplay = document.getElementById('name-result-msg');
 let filteredNames = '';
-let nameMsg = [];
+
 
 findName.addEventListener('keyup', function (e) {
     const searchedName = e.target.value.toUpperCase();
-    console.log(searchedName);
+    // console.log(searchedName);
     filteredNames = dogNames.filter((dog) =>
         dog.name === (searchedName));
-    console.log(filteredNames);
+    // console.log(filteredNames);
     form.addEventListener('submit', (e) => {
         e.preventDefault();
         if (filteredNames.length === 0) {
-            console.log('There are no dogs registered with ' + searchedName + ' registered in Toronto');
+            msgDisplay.innerHTML = 'There are no dogs registered with ' + searchedName + ' registered in Toronto';
         }
         else {
-
-            console.log('There are ' + filteredNames[0].quan_licenced + ' dogs registered with ' + searchedName + ' registered in Toronto');
+            msgDisplay.innerHTML = 'There are ' + filteredNames[0].quan_licenced + ' dogs registered with ' + filteredNames[0].name + ' registered in Toronto';
         }
     });
 });
