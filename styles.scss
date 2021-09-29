@@ -174,7 +174,7 @@ select {
         }
 
         ::placeholder {
-
+            color: #AB6630;
             font-size: .9rem
         }
     }
@@ -191,7 +191,8 @@ select {
         font-size: 1.1rem;
     }
 
-    #breed-result {
+    #breed-result,
+    #name-result-msg {
         color: #F1ECEB;
         text-shadow: 1px 1px 3px #000000;
     }

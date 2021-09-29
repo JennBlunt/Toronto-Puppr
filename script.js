@@ -37703,42 +37703,1226 @@ const dogNames = [
 
 const dogs = [
     {
-        "breed": "dog",
-        "quan_licenced": "42 937"
+      "breed": "Select a Breed",
+      "quan_licenced": "42 937"
     },
     {
-        "breed": "Affenpinscher",
-        "quan_licenced": "11"
+      "breed": "Affenpinscher",
+      "quan_licenced": "11"
     },
     {
-        "breed": "Airedale Terrier",
-        "quan_licenced": "73"
+      "breed": "Airedale Terrier",
+      "quan_licenced": "73"
     },
     {
-        "breed": "Akbash",
-        "quan_licenced": "13"
+      "breed": "Akbash",
+      "quan_licenced": "13"
     },
     {
-        "breed": "Akita",
-        "quan_licenced": "49"
+      "breed": "Akita",
+      "quan_licenced": "49"
     },
     {
-        "breed": "Alaskan Husky",
-        "quan_licenced": "76"
+      "breed": "Alaskan Husky",
+      "quan_licenced": "76"
     },
     {
-        "breed": "Alaskan Klee Kai",
-        "quan_licenced": "7"
+      "breed": "Alaskan Klee Kai",
+      "quan_licenced": "7"
     },
     {
-        "breed": "Alaskan Malamute",
-        "quan_licenced": "69"
+      "breed": "Alaskan Malamute",
+      "quan_licenced": "69"
     },
     {
-        "breed": "American Bulldog",
-        "quan_licenced": "464"
+      "breed": "American Bull D",
+      "quan_licenced": "1"
+    },
+    {
+      "breed": "American Bulldog",
+      "quan_licenced": "463"
+    },
+    {
+      "breed": "American Eskimo",
+      "quan_licenced": "171"
+    },
+    {
+      "breed": "American Foxhound",
+      "quan_licenced": "25"
+    },
+    {
+      "breed": "American Pit Bull Terrier",
+      "quan_licenced": "21"
+    },
+    {
+      "breed": "American Staffordshire Terrier",
+      "quan_licenced": "54"
+    },
+    {
+      "breed": "American Water Spaniel",
+      "quan_licenced": "3"
+    },
+    {
+      "breed": "Anatolian Shepherd",
+      "quan_licenced": "24"
+    },
+    {
+      "breed": "Aussie-Doodle",
+      "quan_licenced": "1"
+    },
+    {
+      "breed": "Austrailian She",
+      "quan_licenced": "1"
+    },
+    {
+      "breed": "Australian Cattle Dog",
+      "quan_licenced": "191"
+    },
+    {
+      "breed": "Australian Kelpie",
+      "quan_licenced": "16"
+    },
+    {
+      "breed": "Australian Shep",
+      "quan_licenced": "1"
+    },
+    {
+      "breed": "Australian Shepherd",
+      "quan_licenced": "893"
+    },
+    {
+      "breed": "Australian Terrier",
+      "quan_licenced": "12"
+    },
+    {
+      "breed": "Austrialian Lab",
+      "quan_licenced": "1"
+    },
+    {
+      "breed": "Barbet",
+      "quan_licenced": "4"
+    },
+    {
+      "breed": "Basenji",
+      "quan_licenced": "48"
+    },
+    {
+      "breed": "Basset Hound",
+      "quan_licenced": "88"
+    },
+    {
+      "breed": "Beagle",
+      "quan_licenced": "915"
+    },
+    {
+      "breed": "Bearded Collie",
+      "quan_licenced": "35"
+    },
+    {
+      "breed": "Beauceron",
+      "quan_licenced": "4"
+    },
+    {
+      "breed": "Bedlington Terrier",
+      "quan_licenced": "8"
+    },
+    {
+      "breed": "Belgian Malinois",
+      "quan_licenced": "87"
+    },
+    {
+      "breed": "Belgian Sheepdog",
+      "quan_licenced": "6"
+    },
+    {
+      "breed": "Belgian Tervuren",
+      "quan_licenced": "4"
+    },
+    {
+      "breed": "Bernedoodle",
+      "quan_licenced": "1"
+    },
+    {
+      "breed": "Bernese Hound",
+      "quan_licenced": "11"
+    },
+    {
+      "breed": "Bernese Mountain Dog",
+      "quan_licenced": "488"
+    },
+    {
+      "breed": "Bichon Frise",
+      "quan_licenced": "666"
+    },
+    {
+      "breed": "Bichon Frise Mi",
+      "quan_licenced": "1"
+    },
+    {
+      "breed": "Bichon Shitzu",
+      "quan_licenced": "1"
+    },
+    {
+      "breed": "Biewer Terrier",
+      "quan_licenced": "1"
+    },
+    {
+      "breed": "Black and Tan Coonound",
+      "quan_licenced": "12"
+    },
+    {
+      "breed": "Black Lab",
+      "quan_licenced": "1"
+    },
+    {
+      "breed": "Black Mouth Cur",
+      "quan_licenced": "24"
+    },
+    {
+      "breed": "Black Mouth Ker",
+      "quan_licenced": "1"
+    },
+    {
+      "breed": "Bloodhound",
+      "quan_licenced": "11"
+    },
+    {
+      "breed": "Blue Lacy",
+      "quan_licenced": "3"
+    },
+    {
+      "breed": "Bluetick Coonhound",
+      "quan_licenced": "17"
+    },
+    {
+      "breed": "Boerboel",
+      "quan_licenced": "7"
+    },
+    {
+      "breed": "Border Collie",
+      "quan_licenced": "930"
+    },
+    {
+      "breed": "Border Terrier",
+      "quan_licenced": "113"
+    },
+    {
+      "breed": "Borzoi",
+      "quan_licenced": "6"
+    },
+    {
+      "breed": "Boston Terrier",
+      "quan_licenced": "465"
+    },
+    {
+      "breed": "Bouvier des Flandres",
+      "quan_licenced": "43"
+    },
+    {
+      "breed": "Boxer",
+      "quan_licenced": "582"
+    },
+    {
+      "breed": "Boykin Spaniel",
+      "quan_licenced": "2"
+    },
+    {
+      "breed": "Briard",
+      "quan_licenced": "8"
+    },
+    {
+      "breed": "Brittany",
+      "quan_licenced": "127"
+    },
+    {
+      "breed": "Brussels Griffon",
+      "quan_licenced": "45"
+    },
+    {
+      "breed": "Bull Terrier",
+      "quan_licenced": "55"
+    },
+    {
+      "breed": "Bull Terrier - Miniature",
+      "quan_licenced": "11"
+    },
+    {
+      "breed": "Bulldog",
+      "quan_licenced": "131"
+    },
+    {
+      "breed": "Bullmastiff",
+      "quan_licenced": "64"
+    },
+    {
+      "breed": "Cairn Terrier",
+      "quan_licenced": "174"
+    },
+    {
+      "breed": "Canaan Dog",
+      "quan_licenced": "8"
+    },
+    {
+      "breed": "Cane Corso",
+      "quan_licenced": "195"
+    },
+    {
+      "breed": "Carolina Dog",
+      "quan_licenced": "11"
+    },
+    {
+      "breed": "Catahoula Leopard Hound",
+      "quan_licenced": "48"
+    },
+    {
+      "breed": "Cavalier King Charles Spaniel",
+      "quan_licenced": "306"
+    },
+    {
+      "breed": "Chesapeake Bay Retriever",
+      "quan_licenced": "26"
+    },
+    {
+      "breed": "Chihuahua",
+      "quan_licenced": "4"
+    },
+    {
+      "breed": "Chihuahua - Long Haired",
+      "quan_licenced": "124"
+    },
+    {
+      "breed": "Chihuahua - Smooth Coated",
+      "quan_licenced": "1,350"
+    },
+    {
+      "breed": "Chinese Crested Dog",
+      "quan_licenced": "40"
+    },
+    {
+      "breed": "Chinese Sharpei",
+      "quan_licenced": "99"
+    },
+    {
+      "breed": "Chow Chow",
+      "quan_licenced": "110"
+    },
+    {
+      "breed": "Cirneco dell Etna",
+      "quan_licenced": "1"
+    },
+    {
+      "breed": "Clumber Spaniel",
+      "quan_licenced": "1"
+    },
+    {
+      "breed": "Cockapoo",
+      "quan_licenced": "1"
+    },
+    {
+      "breed": "Cocker Spaniel",
+      "quan_licenced": "1,467"
+    },
+    {
+      "breed": "Collie - Rough",
+      "quan_licenced": "112"
+    },
+    {
+      "breed": "Collie - Smooth",
+      "quan_licenced": "86"
+    },
+    {
+      "breed": "Coton de Tulear",
+      "quan_licenced": "188"
+    },
+    {
+      "breed": "Curly-Coated Retriever",
+      "quan_licenced": "1"
+    },
+    {
+      "breed": "Dachshund",
+      "quan_licenced": "354"
+    },
+    {
+      "breed": "Dachshund - Longhaired",
+      "quan_licenced": "34"
+    },
+    {
+      "breed": "Dachshund - Wirehaired",
+      "quan_licenced": "17"
+    },
+    {
+      "breed": "Dachshund Min",
+      "quan_licenced": "227"
+    },
+    {
+      "breed": "Dalmatian",
+      "quan_licenced": "46"
+    },
+    {
+      "breed": "Dandie Dinmont Terrier",
+      "quan_licenced": "11"
+    },
+    {
+      "breed": "Doberman Pinscher",
+      "quan_licenced": "265"
+    },
+    {
+      "breed": "Dogo Argentino",
+      "quan_licenced": "36"
+    },
+    {
+      "breed": "Dogue de Bordeaux",
+      "quan_licenced": "13"
+    },
+    {
+      "breed": "Domestic Short",
+      "quan_licenced": "1"
+    },
+    {
+      "breed": "Dutch Sheepdog",
+      "quan_licenced": "19"
+    },
+    {
+      "breed": "Dutch Shepherd",
+      "quan_licenced": "36"
+    },
+    {
+      "breed": "Egyptian Baladi",
+      "quan_licenced": "1"
+    },
+    {
+      "breed": "English Bulldog",
+      "quan_licenced": "203"
+    },
+    {
+      "breed": "English Cocker Spaniel",
+      "quan_licenced": "53"
+    },
+    {
+      "breed": "English Coonhound (Redtick Coonhound)",
+      "quan_licenced": "49"
+    },
+    {
+      "breed": "English Foxhound",
+      "quan_licenced": "17"
+    },
+    {
+      "breed": "English Pointer",
+      "quan_licenced": "21"
+    },
+    {
+      "breed": "English Setter",
+      "quan_licenced": "41"
+    },
+    {
+      "breed": "English Shepherd",
+      "quan_licenced": "5"
+    },
+    {
+      "breed": "English Springer Spaniel",
+      "quan_licenced": "216"
+    },
+    {
+      "breed": "Entlebucher Mountain Dog",
+      "quan_licenced": "11"
+    },
+    {
+      "breed": "Eurasier",
+      "quan_licenced": "12"
+    },
+    {
+      "breed": "European Boxer",
+      "quan_licenced": "1"
+    },
+    {
+      "breed": "Feist",
+      "quan_licenced": "84"
+    },
+    {
+      "breed": "Field Spaniel",
+      "quan_licenced": "10"
+    },
+    {
+      "breed": "Fila Brasileiro",
+      "quan_licenced": "6"
+    },
+    {
+      "breed": "Finnish Spitz",
+      "quan_licenced": "24"
+    },
+    {
+      "breed": "Flat-Coated Retriever",
+      "quan_licenced": "64"
+    },
+    {
+      "breed": "Formosa Mountai",
+      "quan_licenced": "12"
+    },
+    {
+      "breed": "Formosan Mounta",
+      "quan_licenced": "1"
+    },
+    {
+      "breed": "Fox Terrier - Smooth",
+      "quan_licenced": "29"
+    },
+    {
+      "breed": "Fox Terrier - Wirehaired",
+      "quan_licenced": "63"
+    },
+    {
+      "breed": "French Bulldog",
+      "quan_licenced": "500"
+    },
+    {
+      "breed": "French Spaniel",
+      "quan_licenced": "1"
+    },
+    {
+      "breed": "Ganaraskan",
+      "quan_licenced": "65"
+    },
+    {
+      "breed": "German Pinscher",
+      "quan_licenced": "11"
+    },
+    {
+      "breed": "German Shepard",
+      "quan_licenced": "1"
+    },
+    {
+      "breed": "German Shepherd",
+      "quan_licenced": "5"
+    },
+    {
+      "breed": "German Shepherd Dog",
+      "quan_licenced": "2,064"
+    },
+    {
+      "breed": "German Sheppard",
+      "quan_licenced": "2"
+    },
+    {
+      "breed": "German Shorthai",
+      "quan_licenced": "1"
+    },
+    {
+      "breed": "German Shorthaired Pointer",
+      "quan_licenced": "137"
+    },
+    {
+      "breed": "German Wirehaired Pointer",
+      "quan_licenced": "16"
+    },
+    {
+      "breed": "Golden",
+      "quan_licenced": "1"
+    },
+    {
+      "breed": "Golden Retriever",
+      "quan_licenced": "3,140"
+    },
+    {
+      "breed": "Goldendoodle",
+      "quan_licenced": "1"
+    },
+    {
+      "breed": "Gordon Setter",
+      "quan_licenced": "6"
+    },
+    {
+      "breed": "Grand Basset Griffon Vendeen",
+      "quan_licenced": "2"
+    },
+    {
+      "breed": "Great Dane",
+      "quan_licenced": "138"
+    },
+    {
+      "breed": "Great Pyrenees",
+      "quan_licenced": "69"
+    },
+    {
+      "breed": "Greater Swiss Mountain Dog",
+      "quan_licenced": "13"
+    },
+    {
+      "breed": "Greyhound",
+      "quan_licenced": "129"
+    },
+    {
+      "breed": "Harrier",
+      "quan_licenced": "2"
+    },
+    {
+      "breed": "Havanese",
+      "quan_licenced": "495"
+    },
+    {
+      "breed": "Hound",
+      "quan_licenced": "223"
+    },
+    {
+      "breed": "Hovawart",
+      "quan_licenced": "6"
+    },
+    {
+      "breed": "Husky",
+      "quan_licenced": "1"
+    },
+    {
+      "breed": "Ibizan Hound",
+      "quan_licenced": "6"
+    },
+    {
+      "breed": "Icelnd Sheepdog",
+      "quan_licenced": "5"
+    },
+    {
+      "breed": "Irish Setter",
+      "quan_licenced": "41"
+    },
+    {
+      "breed": "Irish Terrier",
+      "quan_licenced": "26"
+    },
+    {
+      "breed": "Irish Water Spaniel",
+      "quan_licenced": "5"
+    },
+    {
+      "breed": "Irish Wolfhound",
+      "quan_licenced": "19"
+    },
+    {
+      "breed": "Italian Greyhound",
+      "quan_licenced": "60"
+    },
+    {
+      "breed": "Jack Russell Te",
+      "quan_licenced": "3"
+    },
+    {
+      "breed": "Japanese Chin",
+      "quan_licenced": "17"
+    },
+    {
+      "breed": "Kangal",
+      "quan_licenced": "2"
+    },
+    {
+      "breed": "Karelian Bear Dog",
+      "quan_licenced": "4"
+    },
+    {
+      "breed": "Keeshond",
+      "quan_licenced": "23"
+    },
+    {
+      "breed": "Kerry Blue Terrier",
+      "quan_licenced": "15"
+    },
+    {
+      "breed": "King Cavalier S",
+      "quan_licenced": "1"
+    },
+    {
+      "breed": "Komondor",
+      "quan_licenced": "4"
+    },
+    {
+      "breed": "Kooikerhondje",
+      "quan_licenced": "1"
+    },
+    {
+      "breed": "Kooikerhundje",
+      "quan_licenced": "1"
+    },
+    {
+      "breed": "Korean Jindo",
+      "quan_licenced": "112"
+    },
+    {
+      "breed": "Kuvasz",
+      "quan_licenced": "6"
+    },
+    {
+      "breed": "Lab",
+      "quan_licenced": "1"
+    },
+    {
+      "breed": "Labradoodle",
+      "quan_licenced": "2"
+    },
+    {
+      "breed": "Labrador",
+      "quan_licenced": "1"
+    },
+    {
+      "breed": "Labrador Retriever",
+      "quan_licenced": "4,355"
+    },
+    {
+      "breed": "Lagotto Romagno",
+      "quan_licenced": "18"
+    },
+    {
+      "breed": "Lakeland Terrier",
+      "quan_licenced": "19"
+    },
+    {
+      "breed": "Landseer",
+      "quan_licenced": "5"
+    },
+    {
+      "breed": "Leonberger",
+      "quan_licenced": "28"
+    },
+    {
+      "breed": "Lhasa Apso",
+      "quan_licenced": "138"
+    },
+    {
+      "breed": "Lowchen",
+      "quan_licenced": "4"
+    },
+    {
+      "breed": "Maltese",
+      "quan_licenced": "1,197"
+    },
+    {
+      "breed": "Manchester Terrier",
+      "quan_licenced": "18"
+    },
+    {
+      "breed": "Maremma Sheepdog",
+      "quan_licenced": "12"
+    },
+    {
+      "breed": "Mastiff",
+      "quan_licenced": "135"
+    },
+    {
+      "breed": "Mexican Hairless",
+      "quan_licenced": "7"
+    },
+    {
+      "breed": "Mini",
+      "quan_licenced": "1"
+    },
+    {
+      "breed": "Miniature Dachs",
+      "quan_licenced": "1"
+    },
+    {
+      "breed": "Miniature Pinscher",
+      "quan_licenced": "181"
+    },
+    {
+      "breed": "Miniature Poodl",
+      "quan_licenced": "5"
+    },
+    {
+      "breed": "Miniature Schna",
+      "quan_licenced": "5"
+    },
+    {
+      "breed": "Mix",
+      "quan_licenced": "3"
+    },
+    {
+      "breed": "Mixed",
+      "quan_licenced": "3"
+    },
+    {
+      "breed": "Mixed Breed",
+      "quan_licenced": "1"
+    },
+    {
+      "breed": "Mongrel",
+      "quan_licenced": "1"
+    },
+    {
+      "breed": "Munsterlander",
+      "quan_licenced": "17"
+    },
+    {
+      "breed": "Mutt",
+      "quan_licenced": "2"
+    },
+    {
+      "breed": "Neapolitan Mastiff",
+      "quan_licenced": "2"
+    },
+    {
+      "breed": "Newfoundland",
+      "quan_licenced": "65"
+    },
+    {
+      "breed": "Newfoundland La",
+      "quan_licenced": "1"
+    },
+    {
+      "breed": "Norfolk Terrier",
+      "quan_licenced": "31"
+    },
+    {
+      "breed": "Norwegian Buhund",
+      "quan_licenced": "7"
+    },
+    {
+      "breed": "Norwegian Elkhound",
+      "quan_licenced": "21"
+    },
+    {
+      "breed": "Norwich Terrier",
+      "quan_licenced": "24"
+    },
+    {
+      "breed": "Nova Scotia Duc",
+      "quan_licenced": "1"
+    },
+    {
+      "breed": "Nova Scotia Duck-Tolling Retriever",
+      "quan_licenced": "103"
+    },
+    {
+      "breed": "Old English Bulldog",
+      "quan_licenced": "83"
+    },
+    {
+      "breed": "Old English Sheepdog",
+      "quan_licenced": "118"
+    },
+    {
+      "breed": "Papillon",
+      "quan_licenced": "89"
+    },
+    {
+      "breed": "Parson (Jack) Russell Terrier",
+      "quan_licenced": "923"
+    },
+    {
+      "breed": "Parson Jack Rus",
+      "quan_licenced": "2"
+    },
+    {
+      "breed": "Parson Russell",
+      "quan_licenced": "1"
+    },
+    {
+      "breed": "Patterdale Terrier",
+      "quan_licenced": "4"
+    },
+    {
+      "breed": "Pekingese",
+      "quan_licenced": "76"
+    },
+    {
+      "breed": "Pembroke Welsh",
+      "quan_licenced": "1"
+    },
+    {
+      "breed": "Petit Basset Griffon Vendeen",
+      "quan_licenced": "8"
+    },
+    {
+      "breed": "Pharaoh Hound",
+      "quan_licenced": "10"
+    },
+    {
+      "breed": "Pharoah Hound",
+      "quan_licenced": "1"
+    },
+    {
+      "breed": "Picardy Sheepdog",
+      "quan_licenced": "5"
+    },
+    {
+      "breed": "Pit Bull Terrier",
+      "quan_licenced": "8"
+    },
+    {
+      "breed": "Plott Hound",
+      "quan_licenced": "29"
+    },
+    {
+      "breed": "Podengo",
+      "quan_licenced": "1"
+    },
+    {
+      "breed": "Podengo Portugueso Pequeno",
+      "quan_licenced": "33"
+    },
+    {
+      "breed": "Pointer",
+      "quan_licenced": "62"
+    },
+    {
+      "breed": "Polish Lowland Sheepdog",
+      "quan_licenced": "11"
+    },
+    {
+      "breed": "Pomeranian",
+      "quan_licenced": "649"
+    },
+    {
+      "breed": "Poodle",
+      "quan_licenced": "3"
+    },
+    {
+      "breed": "Poodle - Miniature",
+      "quan_licenced": "1,422"
+    },
+    {
+      "breed": "Poodle - Standard",
+      "quan_licenced": "1,105"
+    },
+    {
+      "breed": "Poodle - Toy",
+      "quan_licenced": "468"
+    },
+    {
+      "breed": "Portuguese Catt",
+      "quan_licenced": "2"
+    },
+    {
+      "breed": "Portuguese Water Dog",
+      "quan_licenced": "372"
+    },
+    {
+      "breed": "Potcake",
+      "quan_licenced": "3"
+    },
+    {
+      "breed": "Presa Canario",
+      "quan_licenced": "21"
+    },
+    {
+      "breed": "Pudelpointer",
+      "quan_licenced": "5"
+    },
+    {
+      "breed": "Pug",
+      "quan_licenced": "653"
+    },
+    {
+      "breed": "Puli",
+      "quan_licenced": "20"
+    },
+    {
+      "breed": "Pyren Shepherd",
+      "quan_licenced": "3"
+    },
+    {
+      "breed": "Queensland Heeler",
+      "quan_licenced": "6"
+    },
+    {
+      "breed": "Rat Terrier",
+      "quan_licenced": "88"
+    },
+    {
+      "breed": "Redbone Coonhound",
+      "quan_licenced": "25"
+    },
+    {
+      "breed": "Retriever",
+      "quan_licenced": "2"
+    },
+    {
+      "breed": "Rhodesian Ridgeback",
+      "quan_licenced": "114"
+    },
+    {
+      "breed": "Rottweiler",
+      "quan_licenced": "444"
+    },
+    {
+      "breed": "Rough Collie",
+      "quan_licenced": "1"
+    },
+    {
+      "breed": "Russian Terrier",
+      "quan_licenced": "14"
+    },
+    {
+      "breed": "Russian Toy Ter",
+      "quan_licenced": "1"
+    },
+    {
+      "breed": "Saluki",
+      "quan_licenced": "26"
+    },
+    {
+      "breed": "Samoyed",
+      "quan_licenced": "119"
+    },
+    {
+      "breed": "Schipperke",
+      "quan_licenced": "7"
+    },
+    {
+      "breed": "Schnauzer",
+      "quan_licenced": "2"
+    },
+    {
+      "breed": "Schnauzer - Giant",
+      "quan_licenced": "33"
+    },
+    {
+      "breed": "Schnauzer - Miniature",
+      "quan_licenced": "693"
+    },
+    {
+      "breed": "Schnauzer - Standard",
+      "quan_licenced": "139"
+    },
+    {
+      "breed": "Schnauzer Mix",
+      "quan_licenced": "1"
+    },
+    {
+      "breed": "Schulzrudi",
+      "quan_licenced": "1"
+    },
+    {
+      "breed": "Scottish Deerhound",
+      "quan_licenced": "6"
+    },
+    {
+      "breed": "Scottish Terrier",
+      "quan_licenced": "62"
+    },
+    {
+      "breed": "Sealyham Terrier",
+      "quan_licenced": "4"
+    },
+    {
+      "breed": "Setter Mix",
+      "quan_licenced": "1"
+    },
+    {
+      "breed": "Shetland Sheepdog",
+      "quan_licenced": "222"
+    },
+    {
+      "breed": "Shiba Inu",
+      "quan_licenced": "194"
+    },
+    {
+      "breed": "Shih Tzu",
+      "quan_licenced": "2,418"
+    },
+    {
+      "breed": "Shih Tzu Mix",
+      "quan_licenced": "1"
+    },
+    {
+      "breed": "Shihtzu",
+      "quan_licenced": "1"
+    },
+    {
+      "breed": "Shih-Tzu",
+      "quan_licenced": "1"
+    },
+    {
+      "breed": "Shihtzu Mix",
+      "quan_licenced": "1"
+    },
+    {
+      "breed": "Shiloh Shepherd",
+      "quan_licenced": "1"
+    },
+    {
+      "breed": "Short Haired Ch",
+      "quan_licenced": "2"
+    },
+    {
+      "breed": "Siberian Husky",
+      "quan_licenced": "1,096"
+    },
+    {
+      "breed": "Silky Terrier",
+      "quan_licenced": "12"
+    },
+    {
+      "breed": "Skye Terrier",
+      "quan_licenced": "3"
+    },
+    {
+      "breed": "Soft-Coated Whe",
+      "quan_licenced": "1"
+    },
+    {
+      "breed": "Soft-Coated Wheaten Terrier",
+      "quan_licenced": "397"
+    },
+    {
+      "breed": "Spaniel",
+      "quan_licenced": "1"
+    },
+    {
+      "breed": "Spanish Water Dog",
+      "quan_licenced": "11"
+    },
+    {
+      "breed": "Spinone Italiano",
+      "quan_licenced": "15"
+    },
+    {
+      "breed": "St Bernard - Rough Coated",
+      "quan_licenced": "43"
+    },
+    {
+      "breed": "St Bernard - Smooth Coated",
+      "quan_licenced": "42"
+    },
+    {
+      "breed": "Staffordshire Bull Terrier",
+      "quan_licenced": "13"
+    },
+    {
+      "breed": "Standard Poodle",
+      "quan_licenced": "4"
+    },
+    {
+      "breed": "Sussex Spaniel",
+      "quan_licenced": "1"
+    },
+    {
+      "breed": "Swedish Vallhund",
+      "quan_licenced": "4"
+    },
+    {
+      "breed": "Swiss Hound",
+      "quan_licenced": "2"
+    },
+    {
+      "breed": "Swiss Ridge Dog",
+      "quan_licenced": "1"
+    },
+    {
+      "breed": "Tahltan Bear Dog",
+      "quan_licenced": "1"
+    },
+    {
+      "breed": "Tennesee Treeing Brindle Hound",
+      "quan_licenced": "2"
+    },
+    {
+      "breed": "Terrier",
+      "quan_licenced": "367"
+    },
+    {
+      "breed": "Terrier Mix",
+      "quan_licenced": "1"
+    },
+    {
+      "breed": "Terrier X",
+      "quan_licenced": "1"
+    },
+    {
+      "breed": "Tibetan Mastiff",
+      "quan_licenced": "6"
+    },
+    {
+      "breed": "Tibetan Spaniel",
+      "quan_licenced": "19"
+    },
+    {
+      "breed": "Tibetan Terrier",
+      "quan_licenced": "39"
+    },
+    {
+      "breed": "Tosa",
+      "quan_licenced": "1"
+    },
+    {
+      "breed": "Toy Fox Terrier",
+      "quan_licenced": "12"
+    },
+    {
+      "breed": "Toy Poodle",
+      "quan_licenced": "3"
+    },
+    {
+      "breed": "Treeing Cur",
+      "quan_licenced": "3"
+    },
+    {
+      "breed": "Treeing Walker Coonhound",
+      "quan_licenced": "23"
+    },
+    {
+      "breed": "Unknown",
+      "quan_licenced": "165"
+    },
+    {
+      "breed": "Viszla",
+      "quan_licenced": "1"
+    },
+    {
+      "breed": "Vizsla",
+      "quan_licenced": "210"
+    },
+    {
+      "breed": "Vizsla - Wirehaired",
+      "quan_licenced": "5"
+    },
+    {
+      "breed": "Weimaraner",
+      "quan_licenced": "103"
+    },
+    {
+      "breed": "Welsh Corgi - Cardigan",
+      "quan_licenced": "125"
+    },
+    {
+      "breed": "Welsh Corgi - Pembroke",
+      "quan_licenced": "210"
+    },
+    {
+      "breed": "Welsh Springer Spaniel",
+      "quan_licenced": "23"
+    },
+    {
+      "breed": "Welsh Terrier",
+      "quan_licenced": "33"
+    },
+    {
+      "breed": "West Highland White Terrier",
+      "quan_licenced": "370"
+    },
+    {
+      "breed": "Wheaten Terrier",
+      "quan_licenced": "2"
+    },
+    {
+      "breed": "Wheaton Terrier",
+      "quan_licenced": "2"
+    },
+    {
+      "breed": "Whippet",
+      "quan_licenced": "155"
+    },
+    {
+      "breed": "Wire-haired Pointing Griffon",
+      "quan_licenced": "18"
+    },
+    {
+      "breed": "Wolf Hybrid",
+      "quan_licenced": "2"
+    },
+    {
+      "breed": "Yorkshire Terrier",
+      "quan_licenced": "1,237"
+    },
+    {
+      "breed": "Total of all breeds",
+      "quan_licenced": "42,937"
     }
-]
+  ]
 
 
 const dogBreeds = document.getElementById('breeds');

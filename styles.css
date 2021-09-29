@@ -214,18 +214,22 @@ select {
   }
   .breed-form ::-webkit-input-placeholder,
   .name-form ::-webkit-input-placeholder {
+    color: #AB6630;
     font-size: .9rem;
   }
   .breed-form :-ms-input-placeholder,
   .name-form :-ms-input-placeholder {
+    color: #AB6630;
     font-size: .9rem;
   }
   .breed-form ::-ms-input-placeholder,
   .name-form ::-ms-input-placeholder {
+    color: #AB6630;
     font-size: .9rem;
   }
   .breed-form ::placeholder,
   .name-form ::placeholder {
+    color: #AB6630;
     font-size: .9rem;
   }
   .breed-form select {
@@ -234,7 +238,8 @@ select {
   #breeds {
     font-size: 1.1rem;
   }
-  #breed-result {
+  #breed-result,
+  #name-result-msg {
     color: #F1ECEB;
     text-shadow: 1px 1px 3px #000000;
   }
