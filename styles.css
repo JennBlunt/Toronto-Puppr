@@ -180,11 +180,10 @@ select {
 @media screen and (min-width: 280px) and (max-width: 480px) {
   #app {
     background-image: url(./assets/images/pexels-anna-shvets-4588052.jpg);
-    height: 100vh;
+    height: 110vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: fixed;
   }
   .header {
     padding-top: 10vh;
