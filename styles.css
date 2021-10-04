@@ -248,6 +248,11 @@ select {
   .breed-form select {
     margin-top: 2vh;
   }
+  #name-submit {
+    border-radius: 25px;
+    width: 12vw;
+    height: 4vh;
+  }
   #breeds {
     font-size: 1.1rem;
   }
