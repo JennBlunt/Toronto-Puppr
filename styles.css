@@ -114,6 +114,7 @@ body {
   width: 17vw;
   text-align-last: center;
   font-size: 1.3rem;
+  border: solid 1px #E1A34C;
 }
 
 .breed-form button,
@@ -166,6 +167,13 @@ select {
           flex-direction: initial;
   font-size: 1.3rem;
   text-align-last: center;
+}
+
+#name-submit {
+  width: 5vw;
+  background-color: #E1A34C;
+  border: solid 1px #3E2F1C;
+  border-radius: 15px;
 }
 
 @media screen and (min-width: 280px) and (max-width: 480px) {

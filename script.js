@@ -38888,7 +38888,7 @@ findName.addEventListener('keyup', function (e) {
     form.addEventListener('submit', (e) => {
         e.preventDefault();
         if (filteredNames.length === 0) {
-            msgDisplay.innerHTML = 'There are no dogs registered with ' + searchedName + ' registered in Toronto';
+            msgDisplay.innerHTML = 'There are no dogs with the name ' + searchedName + ' registered in Toronto';
         } else if (filteredNames[0].quan_licenced === 1) {
             msgDisplay.innerHTML = 'There is ' + filteredNames[0].quan_licenced + ' dog with the name ' + filteredNames[0].name + ' registered in Toronto';
         }
