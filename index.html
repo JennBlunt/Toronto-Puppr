@@ -20,7 +20,7 @@
         <div class='buttons'>
             <!-- <button>Search by Breed</button> -->
 
-            <button type="button" class="collapsible">Search by Breed</button>
+            <button type="button" id='breed-button' class="collapsible">Search by Breed</button>
             <div class="content">
                 <form class='breed-form'>
                     <!-- <input placeholder="Breed" type="text" id="fname" name="fname"> -->
@@ -34,7 +34,7 @@
             </div>
 
             <!-- <button>Search by Name</button> -->
-            <button type="button" class="collapsible">Search By Name</button>
+            <button type="button" id='name-button' class="collapsible">Search By Name</button>
             <div class="content">
                 <form id='form' class='name-form'>
                     <input placeholder="Enter your pups name here" type="text" id="find-name" name="find-name">
@@ -46,22 +46,7 @@
         </div>
     </div>
 
-    <script>
-        var coll = document.getElementsByClassName("collapsible");
-        var i;
 
-        for (i = 0; i < coll.length; i++) {
-            coll[i].addEventListener("click", function () {
-                this.classList.toggle("active");
-                var content = this.nextElementSibling;
-                if (content.style.display === "block") {
-                    content.style.display = "none";
-                } else {
-                    content.style.display = "block";
-                }
-            });
-        }
-    </script>
     <script src='./script.js'></script>
 </body>
 
