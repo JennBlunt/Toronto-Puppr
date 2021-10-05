@@ -38843,8 +38843,8 @@ for (i = 0; i < coll.length; i++) {
 }
 
 // Only allow one button to open (Breed vs. Name)
-const toggleBreed = document.getElementById('breed-button');
-const toggleName = document.getElementById('name-button');
+let toggleBreed = document.getElementById('breed-button');
+let toggleName = document.getElementById('name-button');
 
 if (toggleBreed.className === 'collapsible active') {
     toggleName.className = 'collapsible'
