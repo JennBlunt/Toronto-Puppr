@@ -38078,7 +38078,7 @@ const dogs = [
         "quan_licenced": "53"
     },
     {
-        "breed": "English Coonhound (Redtick Coonhound)",
+        "breed": "English (Redtick) Coonhound",
         "quan_licenced": "49"
     },
     {
