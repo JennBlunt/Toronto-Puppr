@@ -38863,7 +38863,7 @@ for (let i = 0; i < dogs.length; i++) {
 function dispayNumber() {
     let breedLicenced = document.getElementById('breeds').value;
     let dogsLicenced = document.getElementById('breed-result');
-    dogsLicenced.innerHTML = 'There are ' + breedLicenced + 's registered in Toronto (2021)';
+    dogsLicenced.innerHTML = breedLicenced + 's are in Toronto';
 }
 dispayNumber();
 
@@ -38884,12 +38884,12 @@ findName.addEventListener('keyup', function (e) {
     form.addEventListener('submit', (e) => {
         e.preventDefault();
         if (filteredNames.length === 0) {
-            msgDisplay.innerHTML = 'There are no dogs with the name ' + searchedName + ' registered in Toronto';
+            msgDisplay.innerHTML = 'No dogs with the name ' + searchedName + ' are in Toronto';
         } else if (filteredNames[0].quan_licenced === 1) {
-            msgDisplay.innerHTML = 'There is ' + filteredNames[0].quan_licenced + ' dog with the name ' + filteredNames[0].name + ' registered in Toronto';
+            msgDisplay.innerHTML = filteredNames[0].quan_licenced + ' dog named ' + filteredNames[0].name + ' are in Toronto';
         }
         else {
-            msgDisplay.innerHTML = 'There are ' + filteredNames[0].quan_licenced + ' dogs with the name ' + filteredNames[0].name + ' registered in Toronto';
+            msgDisplay.innerHTML = filteredNames[0].quan_licenced + ' dogs named ' + filteredNames[0].name + ' are in Toronto';
         }
     });
 });
