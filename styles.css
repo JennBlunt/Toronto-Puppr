@@ -182,7 +182,7 @@ select {
     background-image: url(./assets/images/pexels-anna-shvets-4588052.jpg);
     height: 110vh;
     min-height: 100vh;
-    background-position: center;
+    background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
   }
