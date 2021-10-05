@@ -37703,7 +37703,7 @@ const dogNames = [
 
 const dogs = [
     {
-        "breed": "Select a Breed",
+        "breed": "Dog",
         "quan_licenced": "42 937"
     },
     {
@@ -38820,10 +38820,6 @@ const dogs = [
     {
         "breed": "Yorkshire Terrier",
         "quan_licenced": "1,237"
-    },
-    {
-        "breed": "Total of all breeds",
-        "quan_licenced": "42,937"
     }
 ]
 
