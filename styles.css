@@ -187,6 +187,8 @@ select {
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
+    position: fixed;
+    width: 100vw;
   }
   .header {
     padding-top: 7vh;
