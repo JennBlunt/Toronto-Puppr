@@ -10,6 +10,7 @@ body {
   background-position: bottom;
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
 }
 
 .header {
@@ -177,10 +178,13 @@ select {
 }
 
 @media screen and (min-width: 280px) and (max-width: 480px) {
+  body {
+    overflow: scroll;
+  }
   #app {
     background-image: url(./assets/images/pexels-anna-shvets-4588052.jpg);
     height: 100vh;
-    background-position: bottom;
+    background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
   }
