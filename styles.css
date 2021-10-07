@@ -42,7 +42,7 @@ body {
   text-align: center;
   line-height: 1.2rem;
   margin-top: 3%;
-  color: #E1A34C;
+  width: 80vw;
 }
 
 .buttons {
@@ -206,6 +206,7 @@ select {
   }
   .header p {
     font-size: 1rem;
+    color: #E1A34C;
   }
   .collapsible {
     width: 60vw;
