@@ -33,8 +33,15 @@ body {
   font-size: 3.5rem;
 }
 
+.header h2 {
+  font-size: 1.3rem;
+}
+
 .header p {
   font-size: 1.2rem;
+  text-align: center;
+  line-height: 1.2rem;
+  margin: 0;
 }
 
 .buttons {

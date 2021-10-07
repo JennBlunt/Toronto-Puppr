@@ -37703,7 +37703,7 @@ const dogNames = [
 
 const dogs = [
     {
-        "breed": "Dog",
+        "breed": "Dogs",
         "quan_licenced": "42 937"
     },
     {
@@ -38863,7 +38863,7 @@ for (let i = 0; i < dogs.length; i++) {
 function dispayNumber() {
     let breedLicenced = document.getElementById('breeds').value;
     let dogsLicenced = document.getElementById('breed-result');
-    dogsLicenced.innerHTML = breedLicenced + 's are in Toronto';
+    dogsLicenced.innerHTML = breedLicenced + ' are in Toronto';
 }
 dispayNumber();
 
@@ -38886,7 +38886,7 @@ findName.addEventListener('keyup', function (e) {
         if (filteredNames.length === 0) {
             msgDisplay.innerHTML = 'No dogs with the name ' + searchedName + ' are in Toronto';
         } else if (filteredNames[0].quan_licenced === 1) {
-            msgDisplay.innerHTML = filteredNames[0].quan_licenced + ' dog named ' + filteredNames[0].name + ' are in Toronto';
+            msgDisplay.innerHTML = filteredNames[0].quan_licenced + ' dog named ' + filteredNames[0].name + ' is in Toronto';
         }
         else {
             msgDisplay.innerHTML = filteredNames[0].quan_licenced + ' dogs named ' + filteredNames[0].name + ' are in Toronto';
