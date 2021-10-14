@@ -24,7 +24,7 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding-top: 10vh;
+  padding-top: 8vh;
   line-height: 0.5rem;
 }
 
@@ -41,7 +41,7 @@ body {
   font-size: 1.2rem;
   text-align: center;
   line-height: 1.2rem;
-  margin-top: 3%;
+  margin-top: 2%;
   width: 80vw;
 }
 
@@ -63,7 +63,7 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding-top: 6vh;
+  padding-top: 5vh;
   padding-bottom: 38vh;
   margin-right: 20vw;
 }
